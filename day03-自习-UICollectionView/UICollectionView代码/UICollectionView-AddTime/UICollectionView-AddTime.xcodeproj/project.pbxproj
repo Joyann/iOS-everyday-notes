@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6214692B1B7CCF9A000A353C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6214692A1B7CCF9A000A353C /* main.m */; };
+		6214692E1B7CCF9A000A353C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6214692D1B7CCF9A000A353C /* AppDelegate.m */; };
+		621469361B7CCF9A000A353C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621469351B7CCF9A000A353C /* Images.xcassets */; };
+		621469391B7CCF9A000A353C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621469371B7CCF9A000A353C /* LaunchScreen.xib */; };
+		621469451B7CCF9A000A353C /* UICollectionView_AddTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 621469441B7CCF9A000A353C /* UICollectionView_AddTimeTests.m */; };
+		621469501B7CD241000A353C /* JYCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6214694F1B7CD241000A353C /* JYCollectionViewController.m */; };
+		621469531B7CD51C000A353C /* JYCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 621469521B7CD51C000A353C /* JYCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6214693F1B7CCF9A000A353C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6214691D1B7CCF9A000A353C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621469241B7CCF9A000A353C;
+			remoteInfo = "UICollectionView-AddTime";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		621469251B7CCF9A000A353C /* UICollectionView-AddTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectionView-AddTime.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		621469291B7CCF9A000A353C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6214692A1B7CCF9A000A353C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6214692C1B7CCF9A000A353C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6214692D1B7CCF9A000A353C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		621469351B7CCF9A000A353C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		621469381B7CCF9A000A353C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6214693E1B7CCF9A000A353C /* UICollectionView-AddTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UICollectionView-AddTimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		621469431B7CCF9A000A353C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621469441B7CCF9A000A353C /* UICollectionView_AddTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionView_AddTimeTests.m; sourceTree = "<group>"; };
+		6214694E1B7CD241000A353C /* JYCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCollectionViewController.h; sourceTree = "<group>"; };
+		6214694F1B7CD241000A353C /* JYCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCollectionViewController.m; sourceTree = "<group>"; };
+		621469511B7CD51C000A353C /* JYCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCollectionViewCell.h; sourceTree = "<group>"; };
+		621469521B7CD51C000A353C /* JYCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621469221B7CCF9A000A353C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6214693B1B7CCF9A000A353C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6214691C1B7CCF9A000A353C = {
+			isa = PBXGroup;
+			children = (
+				621469271B7CCF9A000A353C /* UICollectionView-AddTime */,
+				621469411B7CCF9A000A353C /* UICollectionView-AddTimeTests */,
+				621469261B7CCF9A000A353C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		621469261B7CCF9A000A353C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				621469251B7CCF9A000A353C /* UICollectionView-AddTime.app */,
+				6214693E1B7CCF9A000A353C /* UICollectionView-AddTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		621469271B7CCF9A000A353C /* UICollectionView-AddTime */ = {
+			isa = PBXGroup;
+			children = (
+				6214692C1B7CCF9A000A353C /* AppDelegate.h */,
+				6214692D1B7CCF9A000A353C /* AppDelegate.m */,
+				621469351B7CCF9A000A353C /* Images.xcassets */,
+				621469371B7CCF9A000A353C /* LaunchScreen.xib */,
+				621469281B7CCF9A000A353C /* Supporting Files */,
+				6214694E1B7CD241000A353C /* JYCollectionViewController.h */,
+				6214694F1B7CD241000A353C /* JYCollectionViewController.m */,
+				621469511B7CD51C000A353C /* JYCollectionViewCell.h */,
+				621469521B7CD51C000A353C /* JYCollectionViewCell.m */,
+			);
+			path = "UICollectionView-AddTime";
+			sourceTree = "<group>";
+		};
+		621469281B7CCF9A000A353C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				621469291B7CCF9A000A353C /* Info.plist */,
+				6214692A1B7CCF9A000A353C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		621469411B7CCF9A000A353C /* UICollectionView-AddTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				621469441B7CCF9A000A353C /* UICollectionView_AddTimeTests.m */,
+				621469421B7CCF9A000A353C /* Supporting Files */,
+			);
+			path = "UICollectionView-AddTimeTests";
+			sourceTree = "<group>";
+		};
+		621469421B7CCF9A000A353C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				621469431B7CCF9A000A353C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		621469241B7CCF9A000A353C /* UICollectionView-AddTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621469481B7CCF9A000A353C /* Build configuration list for PBXNativeTarget "UICollectionView-AddTime" */;
+			buildPhases = (
+				621469211B7CCF9A000A353C /* Sources */,
+				621469221B7CCF9A000A353C /* Frameworks */,
+				621469231B7CCF9A000A353C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UICollectionView-AddTime";
+			productName = "UICollectionView-AddTime";
+			productReference = 621469251B7CCF9A000A353C /* UICollectionView-AddTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6214693D1B7CCF9A000A353C /* UICollectionView-AddTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6214694B1B7CCF9A000A353C /* Build configuration list for PBXNativeTarget "UICollectionView-AddTimeTests" */;
+			buildPhases = (
+				6214693A1B7CCF9A000A353C /* Sources */,
+				6214693B1B7CCF9A000A353C /* Frameworks */,
+				6214693C1B7CCF9A000A353C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621469401B7CCF9A000A353C /* PBXTargetDependency */,
+			);
+			name = "UICollectionView-AddTimeTests";
+			productName = "UICollectionView-AddTimeTests";
+			productReference = 6214693E1B7CCF9A000A353C /* UICollectionView-AddTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6214691D1B7CCF9A000A353C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Joyann;
+				TargetAttributes = {
+					621469241B7CCF9A000A353C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6214693D1B7CCF9A000A353C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 621469241B7CCF9A000A353C;
+					};
+				};
+			};
+			buildConfigurationList = 621469201B7CCF9A000A353C /* Build configuration list for PBXProject "UICollectionView-AddTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6214691C1B7CCF9A000A353C;
+			productRefGroup = 621469261B7CCF9A000A353C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				621469241B7CCF9A000A353C /* UICollectionView-AddTime */,
+				6214693D1B7CCF9A000A353C /* UICollectionView-AddTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		621469231B7CCF9A000A353C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621469391B7CCF9A000A353C /* LaunchScreen.xib in Resources */,
+				621469361B7CCF9A000A353C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6214693C1B7CCF9A000A353C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		621469211B7CCF9A000A353C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621469501B7CD241000A353C /* JYCollectionViewController.m in Sources */,
+				6214692E1B7CCF9A000A353C /* AppDelegate.m in Sources */,
+				6214692B1B7CCF9A000A353C /* main.m in Sources */,
+				621469531B7CD51C000A353C /* JYCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6214693A1B7CCF9A000A353C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621469451B7CCF9A000A353C /* UICollectionView_AddTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		621469401B7CCF9A000A353C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621469241B7CCF9A000A353C /* UICollectionView-AddTime */;
+			targetProxy = 6214693F1B7CCF9A000A353C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		621469371B7CCF9A000A353C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				621469381B7CCF9A000A353C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		621469461B7CCF9A000A353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621469471B7CCF9A000A353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		621469491B7CCF9A000A353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UICollectionView-AddTime/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6214694A1B7CCF9A000A353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UICollectionView-AddTime/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6214694C1B7CCF9A000A353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UICollectionView-AddTimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionView-AddTime.app/UICollectionView-AddTime";
+			};
+			name = Debug;
+		};
+		6214694D1B7CCF9A000A353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UICollectionView-AddTimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionView-AddTime.app/UICollectionView-AddTime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621469201B7CCF9A000A353C /* Build configuration list for PBXProject "UICollectionView-AddTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621469461B7CCF9A000A353C /* Debug */,
+				621469471B7CCF9A000A353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621469481B7CCF9A000A353C /* Build configuration list for PBXNativeTarget "UICollectionView-AddTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621469491B7CCF9A000A353C /* Debug */,
+				6214694A1B7CCF9A000A353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6214694B1B7CCF9A000A353C /* Build configuration list for PBXNativeTarget "UICollectionView-AddTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6214694C1B7CCF9A000A353C /* Debug */,
+				6214694D1B7CCF9A000A353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6214691D1B7CCF9A000A353C /* Project object */;
+}

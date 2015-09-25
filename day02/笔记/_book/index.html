@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Introduction | 概述</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="今天主要讲了常量变量，printf,scanf等内容。">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="0" data-basepath="." data-revision="1439379579485">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter active" data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >概述</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_1938">
+                    
+                        <h1 id="">概述</h1>
+<p>今天主要讲了常量变量，printf,scanf等内容。</p>
+<h3 id="1">1.变量内存分析</h3>
+<ul>
+<li>内存以“字节为单位”。</li>
+<li>内存由大到小寻址。</li>
+<li>int a, int b 的顺序来声明变量，则内存中a的地址在下面(即先申请，因为内存由大到小寻址),b的地址在a上面；int b, int a 则是b先申请在内存的下面。</li>
+<li>类似Excel表格的变量在内存中的存储形式。每一个格代表一个字节（内存的单位）。 以int类型为例，四格为一个int类型的变量，从下往上排列（内存由大到小寻址）,内存地址为16进制的数，比如从大到小为0xff218,0xff217,0xff216,0xff215为一个整形变量所占内存，<strong>0xff215</strong>为该变量的地址（指针）。下一个变量则挨着0xff215继续向上四个，以此类推。</li>
+</ul>
+<pre><code>类型    16位编译器    32位编译器    64位编译器
+char        1            1            1
+int         2            4            4
+float       4            4            4
+double      8            8            8
+short       2            2            2
+long        4            4            8
+long long   8            8            8
+void*       2            4            8
+
+
+关键字                    所占字节数    表示范围
+int                            4    -2(31) ~ 2(31)-1
+signed short int               2    -2(15) ~ 2(15)-1
+signed long int                4    -2(31) ~ 2(31)-1
+unsigned int                   4    0 ~ 2(32)-1
+unsigned short int             2    0 ~ 2(16)-1
+unsigned long int              4    0 ~ 2(32)-1
+float                          4    绝对值E-37 ~ E+38
+double                         8    绝对值E-307 ~ E+308
+</code></pre><h3 id="2-printf">2. printf（位宽和控制实型位数的问题）</h3>
+<ul>
+<li>格式化字符串时，<strong>%ms</strong>或者<strong>%md</strong>，<strong>%mi</strong>这种格式，m为一个整数，表示想要一共保留多少位。如%5d则表示留5列（位）。（位宽）</li>
+<li>如果当前的操作数超出想要保留的位数，则突破m的限制，保留本身的位数。如果当前的操作数小于想要保留的位数，则默认在左侧补充空格。</li>
+<li>如果为<strong>%-md</strong>这种形式，则表示在当前操作数小于m的适合变成在右侧补充空格。</li>
+<li>在输出<strong>实型</strong>的时候，float默认输出6位小数，算上整数部分（不算小数点）最多只能七位。而double则最大为15位。</li>
+<li><p>在%后面加上.m表示想要保留多少位小数，这个不同于上面提到的，如果没有小数点那么当操作数位数大于m的时候会突破限制保留当前的位数，但是以%.m这种形式保留小数则是直接保存想要多少位的数。自我理解：整数允许突破限制是想要保证精度和正确，小数则可以忽略不想要的部分，因为可能</p>
+<blockquote>
+<p>printf(&quot;%.2f&quot;, 3.1415926535f); 输出结果: 3.14
+-
+通过%m方式, 指定输出数值宽度(左端补空格)</p>
+<p>printf(&quot;%9f&quot;, 3.1415926535f);</p>
+<p>输出结果:  $3.141593  注意$代表空格</p>
+<p>这个例子，想要输出9列浮点数，但是浮点数最大七位，既3141593，算上.只有8位，要满足9列则在左面加上空格。</p>
+</blockquote>
+</li>
+<li><p>指定保留多少位小数时, 可以通过*号占位, 以后赋值具体保留的小数位</p>
+<blockquote>
+<p> printf(&quot;%.*f&quot;, 4,3.1415926535f); 输出结果: 3.1416</p>
+</blockquote>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
