@@ -77,10 +77,10 @@ x坐标是通过
 - (IBAction)addItemView 
 {
   	NSUInteger index = self.bigView.subviews.count; // 新增
-  
+
 	CGFloat horizalSpacing = (self.bigView.bounds.size.width - COLS_COUNT * ITEM_WIDTH) / (COLS_COUNT - 1);
     CGFloat verticalSpacing = (self.bigView.bounds.size.height - ROWS_COUNT * ITEM_HEIGHT) / (ROWS_COUNT - 1);
-  
+
   	CGFloat x = (ITEM_WIDTH + horizalSpacing) * (index % COLS_COUNT); // 新增
 }
 ```
@@ -93,10 +93,10 @@ x坐标是通过
 - (IBAction)addItemView 
 {
   	NSUInteger index = self.bigView.subviews.count;
-  
+
 	CGFloat horizalSpacing = (self.bigView.bounds.size.width - COLS_COUNT * ITEM_WIDTH) / (COLS_COUNT - 1);
     CGFloat verticalSpacing = (self.bigView.bounds.size.height - ROWS_COUNT * ITEM_HEIGHT) / (ROWS_COUNT - 1);
-  
+
   	CGFloat x = (ITEM_WIDTH + horizalSpacing) * (index % COLS_COUNT);
     CGFloat y = (ITEM_HEIGHT + verticalSpacing) * (index / COLS_COUNT); // 新增
 }
@@ -108,13 +108,13 @@ x坐标是通过
 - (IBAction)addItemView 
 {
   	NSUInteger index = self.bigView.subviews.count;
-  
+
 	CGFloat horizalSpacing = (self.bigView.bounds.size.width - COLS_COUNT * ITEM_WIDTH) / (COLS_COUNT - 1);
     CGFloat verticalSpacing = (self.bigView.bounds.size.height - ROWS_COUNT * ITEM_HEIGHT) / (ROWS_COUNT - 1);
-  
+
   	CGFloat x = (ITEM_WIDTH + horizalSpacing) * (index % COLS_COUNT);
     CGFloat y = (ITEM_HEIGHT + verticalSpacing) * (index / COLS_COUNT);
-    
+
     UIView *item = [[UIView alloc] initWithFrame:CGRectMake(x, y, ITEM_WIDTH, ITEM_HEIGHT)]; // 新增
     item.backgroundColor = [UIColor redColor];  // 新增
     [self.bigView addSubview:item];  // 新增
